@@ -12,13 +12,11 @@ return(
 <Bar position="static">
 
 <ToolBar>
-<Typography variant="h6" >
+<Typography variant="h6" style={{display:'flex',justifyContent:'flex-end'}} >
    HOUSE OF PRAYER
 </Typography>
- <Button color="inherit " className="flex right" >login</Button>
+ <Button color="inherit " style={{display:'flex',justifyContent:'flex-end',alignself: "stretch",marginright: "16px"}} >login out</Button>
 </ToolBar>
-
-
 </Bar>
 )
 
